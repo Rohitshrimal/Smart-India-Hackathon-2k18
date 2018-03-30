@@ -5,9 +5,9 @@ var longitude = 73.856744;
 function getData(callback) {
     var options = {
         method: 'GET',
-        url: 'https://api.data.gov.in/resource/fced6df9-a360-4e08-8ca0-f283fc74ce15',
+        url: 'https://api.data.gov.in/resource/xxyyzz', // put url
         qs: {
-            'api-key': '579b464db66ec23bdd000001f1c7774618144b456a41b7a967167f94',
+            'api-key': '', // put your key
             format: 'json',
             offset: '0',
             limit: '3000'
